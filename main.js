@@ -16,7 +16,7 @@ const removeTooltip = (e) => {
   // console.log(e.target);
   const tolltip = e.target.querySelector(".tooltip");
   // console.log(tolltip);
-  if (tooltip !== undefined) {
+  if (tolltip !== undefined) {
     tolltip.remove();
   }
 };
